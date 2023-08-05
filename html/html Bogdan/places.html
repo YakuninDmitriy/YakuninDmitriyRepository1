@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>My favorite places</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+  <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+  <link rel="manifest" href="/site.webmanifest">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
+    crossorigin="anonymous"></script>
+  <style>
+    .card {
+      border-radius: 1em;
+      text-align: center;
+      padding: 1em;
+    }
+
+    .card:hover {
+      background-color: rgba(0, 0, 0, 0.03);
+    }
+
+    .card img {
+      border-radius: 50%;
+      width: 60%;
+      margin: auto;
+    }
+  </style>
+</head>
+
+<body>
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+    <div class="container">
+      <a class="navbar-brand p-0" href="/html"><img src="logo.png" alt="logo" width="40"></a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup"
+        aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+        <div class="navbar-nav">
+          <a class="nav-link" aria-current="page" href="/html ">Home</a>
+          <a class="nav-link active" href="places.html">Favorite Places</a>
+          <!-- <a class="nav-link" href="#">Pricing</a> -->
+          <!-- <a class="nav-link disabled">Disabled</a> -->
+        </div>
+      </div>
+    </div>
+  </nav>
+
+  <div class="container my-5">
+    <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3 g-5">
+      <div class="col">
+        <div class="card">
+          <img src="https://picsum.photos/id/1003/300" class="card-img-top" alt="my image">
+          <div class="card-body">
+            <h5 class="card-title">Forest</h5>
+            <p class="card-text">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Atque modi optio veniam alias
+              nihil. Ratione aut necessitatibus repellat cum debitis itaque, delectus a in, odio corrupti, unde aperiam
+              mollitia quod.</p>
+            <a href="https://picsum.photos/id/1003/1500" target="_blank" class="btn btn-primary">Large Photo</a>
+          </div>
+        </div>
+      </div>
+      <div class="col">
+        <div class="card">
+          <img src="https://picsum.photos/id/1001/300" class="card-img-top" alt="my image">
+          <div class="card-body">
+            <h5 class="card-title">Beach</h5>
+            <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laboriosam voluptate
+              explicabo consectetur veniam, fugit vero quia repellendus facere nobis, quidem, corporis error aspernatur
+              adipisci dolores.</p>
+            <a href="https://picsum.photos/id/1001/1500" target="_blank" class="btn btn-primary">Large Photo</a>
+          </div>
+        </div>
+      </div>
+      <div class="col">
+        <div class="card">
+          <img src="https://picsum.photos/id/1002/300" class="card-img-top" alt="my image">
+          <div class="card-body">
+            <h5 class="card-title">Ocean</h5>
+            <p class="card-text">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eius neque adipisci nihil
+              quasi fugiat animi velit consectetur fugit voluptatibus ad?</p>
+            <a href="https://picsum.photos/id/1002/1500" target="_blank" class="btn btn-primary">Large Photo</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</body>
+
+</html>
